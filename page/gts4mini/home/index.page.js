@@ -3,15 +3,13 @@ import * as c from "./content";
 
 const logger = DeviceRuntimeCore.HmLogger.getLogger("torques");
 
-const mappingLabels = c.createFtlbNmMapping(1, 10)
-  .map((p) => ({ text: p[0] + " - " + p[1] }));
+const mappingLabels = c.createFtlbNmMapping(1, 250)
+  .map((p) => ({ text: Number(p[0].toFixed(1)) + " - " + Number(p[1].toFixed(1)) }));
 
 Page({
   build() {
     logger.debug("page build invoked");
     hmUI.setStatusBarVisible(false);
-
-    logger.debug("mappings: " + mappingLabels);
 
     hmUI.createWidget(hmUI.widget.TEXT, {
       ...s.UNIT_LEFT_TEXT_STYLE,
