@@ -1,0 +1,7 @@
+
+msgid "appName"
+msgstr "Torque converter"
+msgid "unitsLabelFtlb"
+msgstr "ft-lb"
+msgid "unitsLabelNm"
+msgstr "Nm"

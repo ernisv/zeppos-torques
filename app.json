@@ -1,0 +1,52 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 20001,
+    "appName": "Torque converter",
+    "appType": "app",
+    "version": {
+      "code": 1,
+      "name": "1.0.1"
+    },
+    "icon": "icon.png",
+    "vender": "Ernestas V",
+    "description": "Torque converter"
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.3",
+      "minVersion": "1.0.0"
+    }
+  },
+  "debug": false,
+  "targets": {
+    "gts4mini": {
+      "module": {
+        "page": {
+          "pages": [
+            "page/gts4mini/home/index.page"
+          ]
+        }
+      },
+      "platforms": [
+        {
+          "name": "gts4mini",
+          "deviceSource": 246
+        },
+        {
+          "name": "gts4mini2",
+          "deviceSource": 247
+        }
+      ],
+      "designWidth": 336
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Torque converter"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
