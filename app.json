@@ -5,8 +5,8 @@
     "appName": "Torque converter",
     "appType": "app",
     "version": {
-      "code": 1,
-      "name": "1.0.1"
+      "code": 2,
+      "name": "1.0.2"
     },
     "icon": "icon.png",
     "vender": "Ernestas Vaiciukevicius",
@@ -38,7 +38,29 @@
         {
           "name": "gts4mini2",
           "deviceSource": 247
+        },
+ 	{
+          "name": "bip5",
+          "deviceSource": 8454400
+        },
+ 	{
+          "name": "bip5-2",
+          "deviceSource": 8454401
+        },
+ 	{
+          "name": "bip5u1",
+          "deviceSource": 8782081
+        },
+	{
+          "name": "bip5u2",
+          "deviceSource": 8782088
+        },			
+	{
+          "name": "bip5u3",
+          "deviceSource": 8782089
         }
+				
+				
       ],
       "designWidth": 336
     }
